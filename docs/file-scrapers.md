@@ -298,6 +298,10 @@ to worry about cleaning or removing a new Ruby installation.
 
 See `lib/docs/scrapers/scala.rb`
 
+## Spring Boot
+
+TODO
+
 ## SQLite
 
 Download the docs from https://sqlite.org/download.html, unzip it, and rename

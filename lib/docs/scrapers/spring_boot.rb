@@ -15,12 +15,13 @@ module Docs
 
     # https://github.com/spring-projects/spring-boot/blob/main/buildSrc/src/main/resources/NOTICE.txt
     options[:attribution] = <<-HTML
-    Copyright &copy; 2012-2023 VMware, Inc.<br>
+    Copyright &copy; 2012-2025 VMware, Inc.<br>
     Licensed under the Apache License, Version 2.0.
     HTML
 
-    self.release = '3.1.3'
-    self.base_url = "https://docs.spring.io/spring-boot/docs/#{release}/reference/html/"
+    self.release = '4.0.1'
+    # self.base_url = "https://docs.spring.io/spring-boot/docs/#{release}/reference/html/"
+    self.base_url = "https://docs.spring.io/spring-boot/#{release}/spring-boot-docs.zip"
 
     def get_latest_version(opts)
       get_latest_github_release('spring-projects', 'spring-boot', opts)
